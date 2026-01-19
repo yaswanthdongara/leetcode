@@ -1,9 +1,10 @@
 /*
 Title: Brian_Kernighan_s_Algorithm_2026-01-19T07-56-57-470Z.txt
 Description: 
-Date: 19/01/2026, 1:26:57 pm
+Date: 19/01/2026, 1:27:59 pm
 */
 
+#to count no.of 1's in a binary number
 count = 0
 while n > 0:
     n = n & (n - 1)
