@@ -1,7 +1,7 @@
 /*
 Title: notes_2026-01-22T04-10-07-763Z.js
 Description: 
-Date: 22/01/2026, 9:40:07 am
+Date: 22/01/2026, 10:22:57 am
 */
 
 Symbol and BigInt are two types that are less commonly used
@@ -47,3 +47,14 @@ JavaScript is a dynamically typed language, meaning you don't need to specify th
 The typeof operator in JavaScript is a simple yet powerful tool that lets you see the data type of a variable or value. It always returns a string indicating the type.
 console.log(typeof num);
 we have a variable called exampleVariable and have assigned it the value of null. But when we use the typeof operator, it returns the string object.
+
+To get the last character of a string, you can use the length of the string minus one. 
+console.log(greeting[greeting.length - 1]);
+
+you can escape the inner quotes by placing a backslash (\) before them:
+let statement = "She said, \"Hello!\"";
+console.log(statement); // She said, "Hello!"
+The backslash tells JavaScript to treat the quotes as literal characters, so they appear correctly in the output.
+You can also escape other special characters, such as the backslash itself (\\), or single quotes within a string surrounded by single quotes (\').
+let quote = 'It\'s a beautiful day!';
+console.log(quote); // It's a beautiful day!
