@@ -1,7 +1,7 @@
 /*
 Title: notes_2026-01-22T04-10-07-763Z.js
 Description: 
-Date: 22/01/2026, 5:58:21 pm
+Date: 22/01/2026, 8:33:56 pm
 */
 
 Symbol and BigInt are two types that are less commonly used
@@ -106,3 +106,41 @@ This means the rest of your JavaScript code won’t run until the user either pr
 
 prompt() is useful for quick testing or small applications, it's generally avoided in modern, complex web applications due to its disruptive nature and inconsistent behavior across different browsers.
 
+ASCII, short for American Standard Code for Information Interchange, is a character encoding standard used in computers to represent text. It assigns a numeric value to each character, which is universally recognized by machines.
+In JavaScript, you can easily access the ASCII code of a character using the charCodeAt() method.
+let letter = "A";
+console.log(letter.charCodeAt(0));
+
+fromCharCode() method allows you to do the opposite: convert an ASCII code into its corresponding character.
+let char = String.fromCharCode(65);
+console.log(char);
+
+The includes() method is used to check if a string contains a specific substring. If the substring is found within the string, the method returns true otherwise, it returns false.
+string.includes(searchValue);
+
+let phrase = "JavaScript is awesome!";
+let result = phrase.includes("awesome");
+
+console.log(result);  // true
+
+The slice() method allows you to extract a portion of a string and returns a new string, without modifying the original string. It takes two parameters: the starting index and the optional ending index.
+let message = "Hello, world!";
+let greeting = message.slice(0, 5);
+In this example, slice(0, 5) extracts characters starting from index 0 up to but not including index 5. As a result, the word Hello is extracted.
+
+If you omit the second parameter, slice() will extract everything from the start index to the end of the string:
+let message = "Hello, world!";
+let world = message.slice(7);
+
+console.log(world);
+ slice(7) extracts the string from index 7 to the end of the string, resulting in world!.
+
+You can also use negative numbers as indexes. When you use a negative number, it counts backward from the end of the string
+
+The toUpperCase() method converts all the characters to uppercase letters and returns a new string with all uppercase characters.
+let greeting = "Hello, World!";
+let uppercaseGreeting = greeting.toUpperCase();
+
+On the flip side, the toLowerCase() method converts all characters in a string to lowercase. 
+let shout = "I AM LEARNING JAVASCRIPT!";
+let lowercaseShout = shout.toLowerCase();
