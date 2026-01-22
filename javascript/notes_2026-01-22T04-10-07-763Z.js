@@ -1,7 +1,7 @@
 /*
 Title: notes_2026-01-22T04-10-07-763Z.js
 Description: 
-Date: 22/01/2026, 5:40:27 pm
+Date: 22/01/2026, 5:58:21 pm
 */
 
 Symbol and BigInt are two types that are less commonly used
@@ -82,3 +82,27 @@ const output = `One of my favorite songs is "${song}". I rated it ${
   (score / highestScore) * 100
 }%.`;
 console.log(output); 
+
+To locate the position of a substring inside of a string, you can use the indexOf() method.
+
+The indexOf() method takes two arguments: the first is the substring you want to find within the larger string, and the second is an option starting position for the search. If you don’t provide a starting position, the search will begin at the start of the string.
+example
+let sentence = "JavaScript is awesome!";
+let position = sentence.indexOf("awesome!");
+console.log(position); // 14
+
+You can also specify where to begin searching within the string by providing a second argument to indexOf(). Here's an example:
+let sentence = "JavaScript is awesome, and JavaScript is powerful!";
+let position = sentence.indexOf("JavaScript", 10);
+console.log(position); // 27
+
+The prompt() method is an important part of JavaScript's interaction with the user. It’s one of the simplest ways to get input from a user through a small pop-up dialog box.
+
+The prompt() method takes two arguments: The first one is the message which will appear inside the dialog box, typically prompting the user to enter information. And the second one is a default value which is optional and will fill the input field initially.
+
+Keep in mind that the prompt() method will halt the execution of the script until the user interacts with the dialog box.
+
+This means the rest of your JavaScript code won’t run until the user either provides input and clicks "OK", or cancels the prompt.
+
+prompt() is useful for quick testing or small applications, it's generally avoided in modern, complex web applications due to its disruptive nature and inconsistent behavior across different browsers.
+
