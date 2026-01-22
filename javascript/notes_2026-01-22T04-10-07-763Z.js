@@ -1,7 +1,7 @@
 /*
 Title: notes_2026-01-22T04-10-07-763Z.js
 Description: 
-Date: 22/01/2026, 10:22:57 am
+Date: 22/01/2026, 5:40:27 pm
 */
 
 Symbol and BigInt are two types that are less commonly used
@@ -58,3 +58,27 @@ The backslash tells JavaScript to treat the quotes as literal characters, so the
 You can also escape other special characters, such as the backslash itself (\\), or single quotes within a string surrounded by single quotes (\').
 let quote = 'It\'s a beautiful day!';
 console.log(quote); // It's a beautiful day!
+
+In JavaScript, template literals are a powerful and flexible way to work with strings. Unlike regular strings, which use single (') or double (") quotes, template literals are defined with backticks (`).
+
+Template literals make it easier to create strings that span multiple lines or include expressions (like variables or even JavaScript code) directly within the string.
+example:
+const name = "Alice";
+const greeting = `Hello, ${name}!`;
+
+Another great feature of template literals is that they support multiline strings. With regular strings, you would need to use escape characters (\n) to create new lines. With template literals, you can simply write the string across multiple lines, and the formatting is preserved:
+
+let poem = `Roses are red,
+Violets are blue,
+JavaScript is fun,
+And so are you.`;
+
+Another feature of template literals is that they allow you to embed JavaScript expressions directly within the string, like in this example:
+
+const song = "Bohemian Rhapsody";
+const score = 9.5;
+const highestScore = 10;
+const output = `One of my favorite songs is "${song}". I rated it ${
+  (score / highestScore) * 100
+}%.`;
+console.log(output); 
