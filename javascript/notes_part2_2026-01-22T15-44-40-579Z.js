@@ -1,7 +1,7 @@
 /*
 Title: notes_part2_2026-01-22T15-44-40-579Z.js
 Description: 
-Date: 22/01/2026, 9:14:40 pm
+Date: 22/01/2026, 9:32:36 pm
 */
 
 How Can You Trim Whitespace from a String?
@@ -30,6 +30,7 @@ let newText = text.replace("JavaScript", "coding");
 console.log(newText);  // "I love coding!"
 
 By default, the replace() method will only replace the first occurrence of the searchValue. If the value appears multiple times in the string, only the first one will be replaced.
+you will need to use the replaceAll() method instead of the replace() method. This method returns a new string for all matches to the substring.
 
 
 How Can You Repeat a String x Number of Times?
