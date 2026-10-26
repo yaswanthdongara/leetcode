@@ -1,3 +1,4 @@
-| Problem Number | Problem Name          | 
-|----------------|-----------------------|
-| 14             | Longest Common Prefix | 
+| Problem Number | Problem Name               | 
+|----------------|----------------------------|
+| 14             | Longest Common Prefix      | 
+| 26             | Remove Duplicates from list|
