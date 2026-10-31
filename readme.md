@@ -8,3 +8,4 @@
 | 215            | Kth largest Element                      |
 | 217            | Contains Duplicate                       |
 | 387            | First Unique Character in a String       |
+| 867            | Transpose Matrix                         |
