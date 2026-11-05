@@ -7,6 +7,7 @@
 | 189            | Rotate Array                             |
 | 215            | Kth largest Element                      |
 | 217            | Contains Duplicate                       |
+| 231            | Power of Two                             |
 | 387            | First Unique Character in a String       |
 | 867            | Transpose Matrix                         |
 | 3014           | Minimum Number of Pushes to Type Word I  |
