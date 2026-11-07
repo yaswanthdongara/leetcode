@@ -4,6 +4,7 @@
 | 9              | Palindrome Number                                |
 | 14             | Longest Common Prefix                            | 
 | 26             | Remove Duplicates from list                      |
+| 83             | Remove Duplicates from Sorted List               |
 | 167            | 167. Two Sum II - Input Array Is Sorted          |
 | 189            | Rotate Array                                     |
 | 215            | Kth largest Element                              |
