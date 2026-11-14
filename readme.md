@@ -12,6 +12,7 @@
 | 215            | Kth largest Element                              |
 | 217            | Contains Duplicate                               |
 | 231            | Power of Two                                     |
+| 283            | Move Zeroes                                      |
 | 387            | First Unique Character in a String               |
 | 867            | Transpose Matrix                                 |
 |1967            | No.of Strings That Appear as Substrings in Word  |
