@@ -6,6 +6,7 @@
 | 14             | Longest Common Prefix                            | 
 | 26             | Remove Duplicates from list                      |
 | 66,66-1        | Plus One                                         |
+| 75             | Sort Colors                                      |
 | 83             | Remove Duplicates from Sorted List               |
 | 167            | 167. Two Sum II - Input Array Is Sorted          |
 | 189            | Rotate Array                                     |
