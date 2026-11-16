@@ -8,7 +8,8 @@
 | 66,66-1        | Plus One                                         |
 | 75             | Sort Colors                                      |
 | 83             | Remove Duplicates from Sorted List               |
-| 167            | 167. Two Sum II - Input Array Is Sorted          |
+| 167            | Two Sum II - Input Array Is Sorted               |
+| 169            | Majority Elemet                                  |
 | 189            | Rotate Array                                     |
 | 215            | Kth largest Element                              |
 | 217            | Contains Duplicate                               |
