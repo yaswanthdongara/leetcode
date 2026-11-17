@@ -1,5 +1,6 @@
 | Problem Number | Problem Name                                     | 
 |----------------|--------------------------------------------------|
+| 3              | Longest Substring Without Repeating Characters   |
 | 7              | Reverse Integer                                  |
 | 9              | Palindrome Number                                |
 | 14             | Longest Common Prefix                            | 
