@@ -3,6 +3,7 @@
 | 3              | Longest Substring Without Repeating Characters   |
 | 7              | Reverse Integer                                  |
 | 9              | Palindrome Number                                |
+| 12             | Integer to Roman                                 |
 | 14             | Longest Common Prefix                            | 
 | 26             | Remove Duplicates from list                      |
 | 66,66-1        | Plus One                                         |
